@@ -1,15 +1,24 @@
 ﻿using System;
 
-namespace C_programs
+namespace assign2
 {
     class Program
     {
-        int i=10;
-        static string a = "keerthi";
+        //static int i;
+        //static string a = "keerthi";
         static void Main(string[] args)
         {
-           objectoriented display = new objectoriented();
-           display.Display();
+            int i = 7;
+            float j = 1.22f;
+            double g = 1.356738436d;
+            char l = 'k';
+            string k;
+            Console.WriteLine("integer: " + i); 
+            Console.WriteLine("float: " + j);
+            Console.WriteLine("double: " + g);
+            Console.WriteLine("char: " + l);
+            k = Console.ReadLine();
+            Console.WriteLine("string: " + k);
         }
 
     }
