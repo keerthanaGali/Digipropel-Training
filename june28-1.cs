@@ -28,7 +28,7 @@ namespace june
         }
 
             Console.Write("Sum of all elements stored in the array is :" + sum);
-            //Console.WriteLine("Hello World!");
+         
         }
     }
 }
