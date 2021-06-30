@@ -6,9 +6,9 @@ namespace june
     {
         static void Main(string[] args)
         {
-            int[] a = new int[5];
-            int[] b = new int[5];
-            int[] c = new int[5];
+            int[] a = new int[50];
+            int[] b = new int[50];
+            int[] c = new int[50];
             int i = 0,j = 0,k = 0,n;
  
             
