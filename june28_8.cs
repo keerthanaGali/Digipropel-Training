@@ -37,3 +37,20 @@ namespace June
     }
 }
 
+/**
+Input & Output : 
+---------------------
+Enter the number of elements to be stored in the array : 7
+Enter 7 numbers of elements in the array :
+element - 0 : 1
+element - 1 : 2
+element - 2 : 3
+element - 3 : 4
+element - 4 : 5
+element - 5 : 6
+element - 6 : 7
+The values store into the array are :
+1  2  3  4  5  6  7
+The values store into the array in reverse are :
+7  6  5  4  3  2  1
+**/
