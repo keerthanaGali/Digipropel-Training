@@ -39,3 +39,13 @@ namespace June
     }
 }
 
+/**
+Input & Output :
+--------------------
+Enter the array elements are : 3
+element - 0 : 21
+element - 1 : 55
+element - 2 : 77
+Maximum element in the array is : 77
+Minimum element in the array is : 21
+**/
