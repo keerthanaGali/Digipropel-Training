@@ -91,3 +91,91 @@ namespace June
     }
 }
 
+/**
+Input & Output : (first example)
+-----------------------------------
+Enter the number of rows in first matrix : 3
+
+Enter the number of columns in first matrix : 3
+
+Enter the number of rows in second matrix : 4
+
+Enter the number of columns in second matrix : 4
+Enter the first matrix :
+element - [0],[0] : 1 
+element - [0],[1] : 2
+element - [0],[2] : 3
+element - [1],[0] : 4
+element - [1],[1] : 5
+element - [1],[2] : 6
+element - [2],[0] : 7
+element - [2],[1] : 8
+element - [2],[2] : 9
+Enter the second matrix :
+element - [0],[0] : 11
+element - [0],[1] : 12
+element - [0],[2] : 13
+element - [0],[3] : 14
+element - [1],[0] : 15
+element - [1],[1] : 16
+element - [1],[2] : 17
+element - [1],[3] : 18
+element - [2],[0] : 19
+element - [2],[1] : 20
+element - [2],[2] : 21
+element - [2],[3] : 22
+element - [3],[0] : 23
+element - [3],[1] : 24
+element - [3],[2] : 25
+element - [3],[3] : 26
+The first matrix is :
+1  2  3
+4  5  6
+7  8  9
+The second matrix is :
+11  12  13  14
+15  16  17  18
+19  20  21  22
+23  24  25  26
+The Matrices can't be compared
+
+Input & Output : (second example)
+---------------------------------------
+Enter the number of rows in first matrix : 3
+
+Enter the number of columns in first matrix : 3
+
+Enter the number of rows in second matrix : 3
+
+Enter the number of columns in second matrix : 3
+Enter the first matrix :
+element - [0],[0] : 1
+element - [0],[1] : 2
+element - [0],[2] : 3
+element - [1],[0] : 4
+element - [1],[1] : 5
+element - [1],[2] : 6
+element - [2],[0] : 7
+element - [2],[1] : 8
+element - [2],[2] : 9
+Enter the second matrix :
+element - [0],[0] : 1
+element - [0],[1] : 2
+element - [0],[2] : 3
+element - [1],[0] : 4
+element - [1],[1] : 5
+element - [1],[2] : 6
+element - [2],[0] : 7
+element - [2],[1] : 8
+element - [2],[2] : 9
+The first matrix is :
+1  2  3
+4  5  6
+7  8  9
+The second matrix is :
+1  2  3
+4  5  6
+7  8  9
+The Matrices can be compared
+Two Matrices are equal
+**/
