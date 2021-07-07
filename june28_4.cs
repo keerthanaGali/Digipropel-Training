@@ -1,4 +1,5 @@
-﻿
+/**4.Write a program in C# Sharp to separate odd and even integers in separate arrays.**/ 
+
 using System;
 
 namespace June
