@@ -1,4 +1,5 @@
-﻿using System;
+/**1.Write a program in C# Sharp to find the sum of all elements of the array.**/
+using System;
 
 namespace June
 {
