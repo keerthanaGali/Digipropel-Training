@@ -35,7 +35,7 @@ namespace June
 
 
 /***
-Input/Output :
+Input & Output :
 -------------------
 Enter the number of elements to be stored in the array :5
 Enter 5 elements in the array :
