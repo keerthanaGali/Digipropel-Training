@@ -11,7 +11,7 @@ namespace June
             int i, n, sum=0;	
 
             Console.Write("Enter the number of elements to be stored in the array :");
-	        n = Convert.ToInt32(Console.ReadLine()); 
+	    n = Convert.ToInt32(Console.ReadLine()); 
    
             Console.Write("Enter {0} elements in the array :\n",n);
 
@@ -32,3 +32,17 @@ namespace June
         }
     }
 }
+
+
+/***
+Input/Output :
+-------------------
+Enter the number of elements to be stored in the array :5
+Enter 5 elements in the array :
+element - 0 : 2
+element - 1 : 4
+element - 2 : 7
+element - 3 : 5
+element - 4 : 3
+Sum of all elements stored in the array is :21
+***/
