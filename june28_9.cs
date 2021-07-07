@@ -41,3 +41,19 @@ namespace June
     }
 }
 
+/**
+Input & Output : 
+--------------------
+Enter the elements in the array : 7
+Enter 7 elements in the array :
+element - 0 : 2
+element - 1 : 6
+element - 2 : 4
+element - 3 : 8
+element - 4 : 1
+element - 5 : 9
+element - 6 : 5
+
+The elements of array in sorted ascending order:
+1  2  4  5  6  8  9
+**/
