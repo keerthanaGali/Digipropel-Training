@@ -1,4 +1,5 @@
-﻿
+/**5.Write a program in C# Sharp to accept two matrices and check whether they are equal.**/
+
 using System;
 
 namespace June
@@ -92,7 +93,7 @@ namespace June
 }
 
 /**
-Input & Output : (first example)
+Input & Output : (one example)
 -----------------------------------
 Enter the number of rows in first matrix : 3
 
@@ -139,7 +140,7 @@ The second matrix is :
 23  24  25  26
 The Matrices can't be compared
 
-Input & Output : (second example)
+Input & Output : (another example)
 ---------------------------------------
 Enter the number of rows in first matrix : 3
 
