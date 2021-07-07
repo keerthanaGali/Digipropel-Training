@@ -1,4 +1,6 @@
-﻿using System;
+/**10.Write a program in C# to the add arrays in the following way.**/
+
+using System;
 
 namespace June
 {
