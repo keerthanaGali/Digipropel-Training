@@ -1,4 +1,6 @@
-﻿using System;
+/**7. Write a program in C# Sharp to find maximum and minimum element in an array.**/
+
+using System;
 
 namespace June
 {
