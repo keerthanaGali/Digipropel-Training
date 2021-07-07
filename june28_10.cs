@@ -43,6 +43,7 @@ namespace June
 
 /**
 Input & output :
+-----------------------
 Enter the first array elements : 
 3
 5
