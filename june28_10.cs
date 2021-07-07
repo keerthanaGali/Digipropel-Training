@@ -41,3 +41,19 @@ namespace June
     }
 }
 
+/**
+Input & output :
+Enter the first array elements : 
+3
+5
+1
+7
+8
+Enter the second array elements :
+2
+4
+1
+9
+4
+sum of the two array elements : 44
+**/
