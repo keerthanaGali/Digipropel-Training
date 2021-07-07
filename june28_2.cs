@@ -51,8 +51,21 @@ namespace June
                         count++; 
                     } 
                 }
-                Console.Write("The number of duplicate elements are: {0} \n", count);
+                Console.Write("The number of duplicate elements are : {0} \n", count);
                 Console.Write("\n");
         }
     }
 }   
+
+/**
+Input & Output :
+---------------------
+Enter the elements stored in the array : 5
+Enter 5 elements in the array : 
+element - 0 : 2
+element - 1 : 1
+element - 2 : 7
+element - 3 : 2
+element - 4 : 7
+The number of duplicate elements are : 2 
+**/
