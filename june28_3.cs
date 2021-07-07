@@ -41,7 +41,7 @@ namespace June
             {
                 if(dup[i]!=0)
                 {
-                    Console.WriteLine("{0} occurs {1} times", a[i], dup[i]);
+                    Console.Write("{0} occurs {1} times", a[i], dup[i]);
                     Console.Write("\n");
                 }
             }    
@@ -49,3 +49,21 @@ namespace June
 
     }
 }
+
+/**
+Input & Output :
+-------------------
+Enter the number of elements to be stored in the array : 6
+Enter 6 elements in the array :
+element - 0 : 31
+element - 1 : 22
+element - 2 : 67
+element - 3 : 22
+element - 4 : 31
+element - 5 : 22
+
+Frequency of all elements of the array :
+31 occurs 2 times
+22 occurs 3 times
+67 occurs 1 times
+**/
