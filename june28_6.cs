@@ -1,4 +1,6 @@
-﻿using System;
+/**6.Write a C# Sharp program to find the missing number in a given array of numbers between 10 and 20.**/
+
+using System;
 
 namespace June
 {
