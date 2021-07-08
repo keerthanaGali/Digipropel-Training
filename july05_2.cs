@@ -18,7 +18,7 @@ namespace july
             }
             for (int i = 0; i < a; i++)
             {
-                Console.WriteLine(persons[i]);
+                Console.WriteLine(persons[i].ToString());
             }
         }
     }
