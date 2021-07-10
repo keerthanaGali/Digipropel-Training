@@ -1,4 +1,6 @@
-﻿using System;
+/**7.Write a C# Sharp program to convert the first character of each word of a given string to uppercase.**/
+
+using System;
 
 namespace july
 {
@@ -31,3 +33,19 @@ namespace july
     }
     
 }
+
+/**
+Output :
+--------------
+Original string is :
+python exercises
+
+After converting the first character of each word of the given string :
+Python Exercises
+
+Original string is :
+The quick brown Fox jumps over the little lazy Dog
+
+After converting the first character of each word of the given string :
+The Quick Brown Fox Jumps Over The Little Lazy Dog
+**/
