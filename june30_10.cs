@@ -1,4 +1,6 @@
-﻿using System;
+/**10.Write a C# Sharp program to compares four sets of words by using each member of the string comparison enumeration.**/
+
+using System;
 using System.Globalization;
 using System.Threading;
 
@@ -34,3 +36,66 @@ namespace july
     }
     
 }
+
+/**
+Output :
+-------------
+Current Culture: en-AU
+   case = Case (CurrentCulture): False
+   case = Case (CurrentCultureIgnoreCase): True
+   case = Case (InvariantCulture): False
+   case = Case (InvariantCultureIgnoreCase): True
+   case = Case (Ordinal): False
+   case = Case (OrdinalIgnoreCase): True
+
+   encyclopedia = encyclopedia (CurrentCulture): True
+   encyclopedia = encyclopedia (CurrentCultureIgnoreCase): True
+   encyclopedia = encyclopedia (InvariantCulture): True
+   encyclopedia = encyclopedia (InvariantCultureIgnoreCase): True
+   encyclopedia = encyclopedia (Ordinal): True
+   encyclopedia = encyclopedia (OrdinalIgnoreCase): True
+
+   encyclopedia = encyclopedia (CurrentCulture): True
+   encyclopedia = encyclopedia (CurrentCultureIgnoreCase): True
+   encyclopedia = encyclopedia (InvariantCulture): True
+   encyclopedia = encyclopedia (InvariantCultureIgnoreCase): True
+   encyclopedia = encyclopedia (Ordinal): True
+   encyclopedia = encyclopedia (OrdinalIgnoreCase): True
+
+   Archeology = ARCHEOLOGY (CurrentCulture): False
+   Archeology = ARCHEOLOGY (CurrentCultureIgnoreCase): True
+   Archeology = ARCHEOLOGY (InvariantCulture): False
+   Archeology = ARCHEOLOGY (InvariantCultureIgnoreCase): True
+   Archeology = ARCHEOLOGY (Ordinal): False
+   Archeology = ARCHEOLOGY (OrdinalIgnoreCase): True
+
+
+Current Culture: sv-SE
+   case = Case (CurrentCulture): False
+   case = Case (CurrentCultureIgnoreCase): True
+   case = Case (InvariantCulture): False
+   case = Case (InvariantCultureIgnoreCase): True
+   case = Case (Ordinal): False
+   case = Case (OrdinalIgnoreCase): True
+
+   encyclopedia = encyclopedia (CurrentCulture): True
+   encyclopedia = encyclopedia (CurrentCultureIgnoreCase): True
+   encyclopedia = encyclopedia (InvariantCulture): True
+   encyclopedia = encyclopedia (InvariantCultureIgnoreCase): True
+   encyclopedia = encyclopedia (Ordinal): True
+   encyclopedia = encyclopedia (OrdinalIgnoreCase): True
+
+   encyclopedia = encyclopedia (CurrentCulture): True
+   encyclopedia = encyclopedia (CurrentCultureIgnoreCase): True
+   encyclopedia = encyclopedia (InvariantCulture): True
+   encyclopedia = encyclopedia (InvariantCultureIgnoreCase): True
+   encyclopedia = encyclopedia (Ordinal): True
+   encyclopedia = encyclopedia (OrdinalIgnoreCase): True
+
+   Archeology = ARCHEOLOGY (CurrentCulture): False
+   Archeology = ARCHEOLOGY (CurrentCultureIgnoreCase): True
+   Archeology = ARCHEOLOGY (InvariantCulture): False
+   Archeology = ARCHEOLOGY (InvariantCultureIgnoreCase): True
+   Archeology = ARCHEOLOGY (Ordinal): False
+   Archeology = ARCHEOLOGY (OrdinalIgnoreCase): True
+   **/
