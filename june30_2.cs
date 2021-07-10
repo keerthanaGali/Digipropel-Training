@@ -1,4 +1,6 @@
-﻿using System;
+/**2.Write a program to accepst two names and sort them in alphabetical order.**/
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -31,3 +33,18 @@ namespace july
     }
     
 }
+
+/**
+Input :
+-------------
+Enter the first name:
+Keerthana
+Enter the second name:
+Gali
+
+Output :
+--------------
+Sorted the list of two names : 
+Gali
+Keerthana
+**/
