@@ -1,4 +1,6 @@
-﻿using System;
+/**6. Write a C# Sharp program to find the position of a specified word in a given string.**/
+
+using System;
 
 namespace july
 {
@@ -24,3 +26,15 @@ namespace july
     }
     
 }
+
+/**
+Output :
+------------
+Original string is : The quick brown fox jumps over the lazy dog.
+
+Position of the word 'fox' in the said string : 4
+
+Position of the word 'the' in the said string : 7
+
+Position of the word 'lazy' in the said string : 8
+**/
