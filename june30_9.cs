@@ -1,4 +1,6 @@
-﻿using System;
+/**9.Write a C# Sharp program reverse all the words of a given string which have even length.**/
+
+using System;
 
 namespace july
 {
@@ -7,12 +9,12 @@ namespace july
         static void Main(string[] args)
         {
             string str = "C# Exercises";
-            Console.WriteLine("Original string: " + str);
-            Console.WriteLine("\nReverse all the words of the said string which have even length.:\n" + test(str));
+            Console.WriteLine("\nOriginal string: " + str);
+            Console.WriteLine("\nReverse all the words of the said string which have even length:\n" + test(str));
             
             str = "C# is used to develop web apps , desktop apps , mobile apps , games and much more.";
             Console.WriteLine("\nOriginal string: " + str);
-            Console.WriteLine("\nReverse all the words of the said string which have even length.:\n" + test(str));
+            Console.WriteLine("\nReverse all the words of the said string which have even length:\n" + test(str));
         
         }
         public static string test(string str)
@@ -34,3 +36,19 @@ namespace july
     }
     
 }
+
+/**
+Output :
+--------------
+Original string: 
+C# Exercises
+
+Reverse all the words of the said string which have even length:
+#C Exercises
+
+Original string: 
+C# is used to develop web apps , desktop apps , mobile apps , games and much more.
+
+Reverse all the words of the said string which have even length:
+#C si desu ot develop web sppa , desktop sppa , elibom sppa , games and hcum more.
+**/
