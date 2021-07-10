@@ -1,8 +1,12 @@
-﻿using System;
+/**1. Read up C# enums and write small snippets on 
+   a.creating an enums
+   b.Using the enums**/
+
+using System;
 
 namespace july
 {
-    class Program
+    class june30_1
     {
         enum name
         {
@@ -57,7 +61,19 @@ namespace july
                 default:
                 Console.WriteLine("\nInvalid option");
                 break;
+                Console.Write("\n");
             }
         }
     }    
-}    
+}
+
+/**
+Input :
+--------------
+Choose the option value :  4
+
+Output :
+--------------
+You select the name vineeth
+Age is 24
+**/
