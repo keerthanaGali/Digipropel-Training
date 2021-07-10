@@ -1,4 +1,6 @@
-﻿using System;
+/**5. Write a program in C# Sharp to count the total number of words in a string. **/
+
+using System;
 
 namespace july
 {
@@ -29,3 +31,14 @@ namespace july
     }
     
 }
+
+/**
+Input :
+-------------
+Enter the string : 
+This is a C# Program.
+
+Output : 
+-------------
+Total number of words in the string is : 5
+**/
