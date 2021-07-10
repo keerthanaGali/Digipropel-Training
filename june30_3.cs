@@ -1,5 +1,6 @@
-﻿using System;
+/**3.Write a C# Sharp program to display alphabet pattern like B with an asterisk.**/
 
+using System;
 
 namespace july
 {
@@ -10,7 +11,7 @@ namespace july
             int row, column;
             Console.Write("\n\n");
             Console.WriteLine("Display the pattern like 'B' with an asterisk:");
-            Console.Write("---------------------------------------------");
+            Console.Write("--------------------------------------------------");
             Console.Write("\n\n");
             
             for (row = 0; row <= 6; row++)
@@ -30,3 +31,18 @@ namespace july
     }
     
 }
+
+/**
+Output :
+-------------
+Display the pattern like 'B' with an asterisk :
+-------------------------------------------------
+
+ ****
+ *   *
+ *   *
+ ****
+ *   *
+ *   *
+ ****
+ **/
