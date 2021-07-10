@@ -1,4 +1,6 @@
-﻿using System;
+/**4.  Write a program in C# Sharp to find the length of a string without using library function. **/
+
+using System;
 
 namespace july
 {
@@ -10,10 +12,21 @@ namespace july
             Console.WriteLine("Enter the string value :");
             str = Console.ReadLine();
             int strLength = str.Length;
-            Console.WriteLine("Total number of words in the string is : " + strLength);
+            Console.WriteLine("Length of the string is : " + strLength);
 
         }
 
     }
     
 }
+
+/**
+Input :
+---------------
+Enter the string value :
+This is a C# Program.
+
+Output :
+--------------
+Length of the string is : 21
+**/
