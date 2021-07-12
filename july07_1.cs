@@ -1,4 +1,5 @@
-﻿/**1. Create a C# program that implements an IVehicle interface with two methods, one for Drive of type void and another for Refuel of type bool that has a parameter of type integer with the amount of gasoline to refuel."**/
+﻿/**1. Create a C# program that implements an IVehicle interface with two methods, 
+one for Drive of type void and another for Refuel of type bool that has a parameter of type integer with the amount of gasoline to refuel."**/
 
 using System;
 
@@ -24,16 +25,18 @@ namespace july
             void Drive();
             bool Refuel(int amount);
         }
+        
         //Declaring a class car with a builder
         public class Car : Ivehicle
         {
-            public int fuel{ get; set;} 
+            public int fuel{ get; set;}
             public Car(int Fuel)
             {
-                fuel = Fuel ;
+                fuel = Fuel;
             }
-             //Declaring a Drive method 
-             public void Drive()
+            
+            //Declaring a Drive method
+            public void Drive()
             {
                 if( fuel > 0 )
                 {
@@ -44,6 +47,7 @@ namespace july
                     Console.WriteLine("No fuel in the car");
                 }
             }
+            
             //Declaring a bool called Refuel
             public bool Refuel(int amount)
             {
