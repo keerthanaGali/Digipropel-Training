@@ -1,0 +1,64 @@
+.container
+{
+    text-align: center;
+    height: 500px;
+    width: 350px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 360px;
+    background-color:white;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 20px;
+}
+h1 
+{
+    position: absolute;
+    left: 50%;
+    top: -45px;
+    width: 338px;
+    transform: translateX(-50%);
+    background-color: black;
+    color: #fff;
+    font-weight: 100;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+.Warpper
+{
+    text-align: center;
+    padding: 20px;
+}
+body
+{
+    background-color: #800000;
+}
+p
+{
+    text-align: center;
+    font-size: 18px;
+    font-style: inherit;
+}
+input,
+select
+{
+    width: 70%;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+}
+button 
+{
+    text-align: center;
+    margin: 20px auto;
+    width: 150px;
+    height: 50px;
+    background-color:#6e044e;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
